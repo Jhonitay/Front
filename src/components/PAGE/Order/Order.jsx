@@ -14,6 +14,64 @@ import Listproduct from "../List/Listproduct";
 
 function Order() {
 
+  const productList = [
+    {
+      title: "Espresso Portafilter",
+      description: "Description 1 ",
+      price: 61000000,
+      image: bijikopi,
+    },
+    {
+      title: "Ground coffee",
+      description: "Description 2",
+      price: 10,
+      image: groundkopi,
+    },
+    {
+      title: "Coffe bean latte",
+      description: "Description 3",
+      price: 61000000,
+      image: bijiKopiSusu,
+    },
+    {
+      title: "Coffe candy",
+      description: "Description 4",
+      price: 61000000,
+      image: permenkopi,
+    },
+    {
+      title: "Coffe machine",
+      description: "Description 5",
+      price: 61000000,
+      image: mesinkopi,
+    },
+    {
+      title: "Machine espresso",
+      description: "Description 6",
+      price: 61000000,
+      image: mesinespreso,
+    },
+    {
+      title: "Milk coffe beans ",
+      description: "Description 7",
+      price: 61000000,
+      image: bijiKopiSusu,
+    },
+    {
+      title: "Coffe drip kettle",
+      description: "Description 8",
+      price: 61000000,
+      image: ceret,
+    },
+    {
+      title: "Espresso Maker Pot",
+      description: "Description 9",
+      price: 61000000,
+      image: ceretoremium,
+    },
+    // Tambahkan produk lainnya di sini
+  ];
+
   
   const [selectedProducts, setSelectedProducts] = useState([]);
   const [quantities, setQuantities] = useState({});
@@ -79,64 +137,6 @@ function Order() {
       }));
     }
   };
-
-  const productList = [
-    {
-      title: "Espresso Portafilter",
-      description: "Description 1 ",
-      price: 61000000,
-      image: bijikopi,
-    },
-    {
-      title: "Ground coffee",
-      description: "Description 2",
-      price: 10,
-      image: groundkopi,
-    },
-    {
-      title: "Coffe bean latte",
-      description: "Description 3",
-      price: 61000000,
-      image: bijiKopiSusu,
-    },
-    {
-      title: "Coffe candy",
-      description: "Description 4",
-      price: 61000000,
-      image: permenkopi,
-    },
-    {
-      title: "Coffe machine",
-      description: "Description 5",
-      price: 61000000,
-      image: mesinkopi,
-    },
-    {
-      title: "Machine espresso",
-      description: "Description 6",
-      price: 61000000,
-      image: mesinespreso,
-    },
-    {
-      title: "Milk coffe beans ",
-      description: "Description 7",
-      price: 61000000,
-      image: bijiKopiSusu,
-    },
-    {
-      title: "Coffe drip kettle",
-      description: "Description 8",
-      price: 61000000,
-      image: ceret,
-    },
-    {
-      title: "Espresso Maker Pot",
-      description: "Description 9",
-      price: 61000000,
-      image: ceretoremium,
-    },
-    // Tambahkan produk lainnya di sini
-  ];
 
   const moveToCart = () => {
     const cartProduct = selectedProducts.map((product) => {
