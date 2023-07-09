@@ -93,7 +93,7 @@ function Team() {
               className="Photo"
             />
             <h3>Ahmad Fauzan</h3>
-            <h5>Front End</h5>
+            <h5>Front End UI/UX</h5>
             <div class="icons">
               <a href="https://github.com/ahmdfauzzan" target="blank">
               <FaGithub className="ikon git" />
