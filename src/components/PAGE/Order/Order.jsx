@@ -1,4 +1,12 @@
 import React, { useState, useEffect } from "react";
+// import permenkopi from "../../../assets/images/permenkopi.png";
+// import  from "../../../assets/images/bijikopisusu.png";
+// import permenkopi from "../../../assets/images/bijikopi.png";
+// import permenkopi from "../../../assets/images/ceret.png";
+// import permenkopi from "../../../assets/images/ceretpremium.png";
+// import permenkopi from "../../../assets/images/groundkopi.png";
+// import permenkopi from "../../../assets/images/mesinespreso.png";
+// import permenkopi from "../../../assets/images/mesinkopi.png";
 import "./Order.css";
 import { Link } from "react-router-dom";
 import Product from "../Product Box/product";
@@ -74,55 +82,55 @@ function Order() {
       title: "Espresso Portafilter",
       description: "Description 1 ",
       price: 61000000,
-      image: "http://localhost:3000/images/peraskopi.png",
+      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/groundkopi.png",
     },
     {
       title: "Ground coffee",
       description: "Description 2",
       price: 10,
-      image: "http://localhost:3000/images/groundkopi.png",
+      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/groundkopi.png",
     },
     {
       title: "Coffe bean latte",
       description: "Description 3",
       price: 61000000,
-      image: "http://localhost:3000/images/bijikopi.png",
+      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/bijikopi.png",
     },
     {
       title: "Coffe candy",
       description: "Description 4",
       price: 61000000,
-      image: "/images/permenkopi.png",
+      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/permenkopi.png",
     },
     {
       title: "Coffe machine",
       description: "Description 5",
       price: 61000000,
-      image: "/images/mesinkopi.png",
+      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/mesinkopi.png",
     },
     {
       title: "Machine espresso",
       description: "Description 6",
       price: 61000000,
-      image: "/images/mesinespreso.png",
+      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/mesinespreso.png",
     },
     {
       title: "Milk coffe beans ",
       description: "Description 7",
       price: 61000000,
-      image: "/images/bijikopisusu.png",
+      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/bijikopisusu.png",
     },
     {
       title: "Coffe drip kettle",
       description: "Description 8",
       price: 61000000,
-      image: "/images/ceret.png",
+      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/ceret.png",
     },
     {
       title: "Espresso Maker Pot",
       description: "Description 9",
       price: 61000000,
-      image: "/images/ceretpremium.png",
+      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/ceretpremium.png",
     },
     // Tambahkan produk lainnya di sini
   ];
