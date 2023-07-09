@@ -11,7 +11,7 @@ function Login() {
 
   const handleLogin = async () => {
     try {
-      await axios.post("http://localhost:5000/login", { email, password });
+      await axios.post("https://sugeng-amikom.up.railway.app/login", { email, password });
       console.log("login success");
       custom_alert();
       navigate("/");

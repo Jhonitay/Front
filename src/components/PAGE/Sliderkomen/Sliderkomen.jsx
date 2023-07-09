@@ -12,7 +12,7 @@ const Sliderkomen = () => {
   },[]);
 
   const getComent = async () => {
-    const response = await axios.post("http://localhost:5000/getcontacts");
+    const response = await axios.post("https://sugeng-amikom.up.railway.app/getcontacts");
     console.log(response.data.contacts.contacts);
     setComent(response.data.contacts.contacts);
   }

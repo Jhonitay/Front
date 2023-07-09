@@ -13,7 +13,7 @@ const SignUp = () => {
 
   const handleLogin = async () => {
     try {
-      await axios.post("http://localhost:5000/signup", {
+      await axios.post("https://sugeng-amikom.up.railway.app/signup", {
         email,
         password,
         username,
