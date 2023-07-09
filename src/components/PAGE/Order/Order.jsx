@@ -19,7 +19,7 @@ function Order() {
       title: "Espresso Portafilter",
       description: "Description 1 ",
       price: 61000000,
-      image: bijikopi,
+      image: "/images/permenkopi.png",
     },
     {
       title: "Ground coffee",
