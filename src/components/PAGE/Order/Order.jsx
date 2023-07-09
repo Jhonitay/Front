@@ -92,37 +92,37 @@ function Order() {
       title: "Coffe candy",
       description: "Description 4",
       price: 61000000,
-      image: "http://localhost:3000/images/permenkopi.png",
+      image: "/images/permenkopi.png",
     },
     {
       title: "Coffe machine",
       description: "Description 5",
       price: 61000000,
-      image: "http://localhost:3000/images/mesinkopi.png",
+      image: "/images/mesinkopi.png",
     },
     {
       title: "Machine espresso",
       description: "Description 6",
       price: 61000000,
-      image: "http://localhost:3000/images/mesinespreso.png",
+      image: "/images/mesinespreso.png",
     },
     {
       title: "Milk coffe beans ",
       description: "Description 7",
       price: 61000000,
-      image: "http://localhost:3000/images/bijikopisusu.png",
+      image: "/images/bijikopisusu.png",
     },
     {
       title: "Coffe drip kettle",
       description: "Description 8",
       price: 61000000,
-      image: "http://localhost:3000/images/ceret.png",
+      image: "/images/ceret.png",
     },
     {
       title: "Espresso Maker Pot",
       description: "Description 9",
       price: 61000000,
-      image: "http://localhost:3000/images/ceretpremium.png",
+      image: "/images/ceretpremium.png",
     },
     // Tambahkan produk lainnya di sini
   ];
