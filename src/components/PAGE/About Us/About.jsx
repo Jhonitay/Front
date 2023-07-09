@@ -2,6 +2,7 @@ import "./About.css";
 import"./About";
 
 import Sliderkomen from "../Sliderkomen/Sliderkomen";
+import { useEffect } from "react";
 
 // import { Carousel } from "react-responsive-carousel";
 // import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -11,6 +12,9 @@ import Sliderkomen from "../Sliderkomen/Sliderkomen";
 function About() {
 
   // const [contacts, setContacts] = useState([]);
+  useEffect(() => {
+    window.scrollTo(0, 0); // Mengatur scroll ke bagian atas halaman saat komponen dimuat ulang
+  }, []);
 
   
   
