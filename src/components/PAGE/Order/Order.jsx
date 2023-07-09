@@ -1,30 +1,33 @@
 import React, { useState, useEffect } from "react";
-// import permenkopi from "../../../assets/images/permenkopi.png";
-// import  from "../../../assets/images/bijikopisusu.png";
-// import permenkopi from "../../../assets/images/bijikopi.png";
-// import permenkopi from "../../../assets/images/ceret.png";
-// import permenkopi from "../../../assets/images/ceretpremium.png";
-// import permenkopi from "../../../assets/images/groundkopi.png";
-// import permenkopi from "../../../assets/images/mesinespreso.png";
-// import permenkopi from "../../../assets/images/mesinkopi.png";
+import permenkopi from "../../../assets/images/permenkopi.png";
+import bijiKopiSusu  from "../../../assets/images/bijikopisusu.png";
+import bijikopi from "../../../assets/images/bijikopi.png";
+import ceret from "../../../assets/images/ceret.png";
+import ceretoremium from "../../../assets/images/ceretpremium.png";
+import groundkopi from "../../../assets/images/groundkopi.png";
+import mesinespreso from "../../../assets/images/mesinespreso.png";
+import mesinkopi from "../../../assets/images/mesinkopi.png";
 import "./Order.css";
 import { Link } from "react-router-dom";
 import Product from "../Product Box/product";
 import Listproduct from "../List/Listproduct";
 
 function Order() {
-  useEffect(() => {
-    window.scrollTo(0, 0); // Mengatur scroll ke bagian atas halaman saat komponen dimuat ulang
-  }, []);
+
+  
   const [selectedProducts, setSelectedProducts] = useState([]);
   const [quantities, setQuantities] = useState({});
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   const [cartProducts, setCartProducts] = useState([]);
-
+  
   useEffect(() => {
-    window.scrollTo(0, 100); // Mengatur scroll ke bagian atas halaman saat komponen dimuat ulang
+    window.scrollTo(0, 500); // Mengatur scroll ke bagian atas halaman saat komponen dimuat ulang
   }, [selectedProducts]);
+  
+  useEffect(() => {
+    window.scrollTo(0, 0); // Mengatur scroll ke bagian atas halaman saat komponen dimuat ulang
+  }, []);
 
   const handleSearch = () => {
     if (searchTerm.trim() === "") {
@@ -82,55 +85,55 @@ function Order() {
       title: "Espresso Portafilter",
       description: "Description 1 ",
       price: 61000000,
-      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/groundkopi.png",
+      image: bijikopi,
     },
     {
       title: "Ground coffee",
       description: "Description 2",
       price: 10,
-      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/groundkopi.png",
+      image: groundkopi,
     },
     {
       title: "Coffe bean latte",
       description: "Description 3",
       price: 61000000,
-      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/bijikopi.png",
+      image: bijiKopiSusu,
     },
     {
       title: "Coffe candy",
       description: "Description 4",
       price: 61000000,
-      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/permenkopi.png",
+      image: permenkopi,
     },
     {
       title: "Coffe machine",
       description: "Description 5",
       price: 61000000,
-      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/mesinkopi.png",
+      image: mesinkopi,
     },
     {
       title: "Machine espresso",
       description: "Description 6",
       price: 61000000,
-      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/mesinespreso.png",
+      image: mesinespreso,
     },
     {
       title: "Milk coffe beans ",
       description: "Description 7",
       price: 61000000,
-      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/bijikopisusu.png",
+      image: bijiKopiSusu,
     },
     {
       title: "Coffe drip kettle",
       description: "Description 8",
       price: 61000000,
-      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/ceret.png",
+      image: ceret,
     },
     {
       title: "Espresso Maker Pot",
       description: "Description 9",
       price: 61000000,
-      image: "https://sugeng-kicn6vs3m-jhonitay.vercel.app/images/ceretpremium.png",
+      image: ceretoremium,
     },
     // Tambahkan produk lainnya di sini
   ];
