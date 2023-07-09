@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.list1 {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  height: max-content;
+  height: 100%;
+  display: flex;
+  padding: 20px 0px;
+  border-bottom: 1px solid black;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.nama-produk {
+  padding-left: 10%;
+  width: 40%;
+  font-weight: bold;
+}
+
+.jumlah {
+  width: 15%;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 5%;
+}
+
+.harga {
+  width: 20%;
+  font-weight: bold;
+  margin-right: 5%;
+}
+
+.totalHarga {
+  width: 20%;
+  font-weight: bold;
+}
+
+.hapus-button {
+  width: 10%;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
